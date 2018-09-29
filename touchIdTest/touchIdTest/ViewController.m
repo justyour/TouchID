@@ -56,6 +56,7 @@
                         NSLog(@"Authentication could not start, because Touch ID is not available on the device");
                         break;
                     case LAErrorTouchIDNotEnrolled:
+                      
                         NSLog(@"Authentication could not start, because Touch ID has no enrolled fingers.");
                         break;
                     default:
